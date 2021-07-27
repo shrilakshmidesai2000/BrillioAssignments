@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           input[type=text],select{
+               padding:20px;
+               width:50%;
+               margin:5px,0;
+           }
+    </style>
+</head>
+<body>
+    <h1>Register here</h1>
+    <form>
+        <div class="something">
+        <label for="fname" class="fname1">First name</label><br>
+        <input type="text" id="fname" name="fname" placeholder="fname">
+        <input type="text" id="fname"><br>
+        <label for="lname">Last name</label>
+        <input type="text" id="lname"><br>
+    
+        <label for="city">city</label>
+        <input type="text" id="city"><br>
+        <input type="submit" value="submit">
+        <textarea  id="about" cols="5" rows="10"></textarea>
+        <label for="gender">gender</label>
+        <input type="checkbox" id="gender"><br>
+        <label for="course">Choose a course</label> 
+        <select id="course" name="course" size="2">
+            <option value="C">c</option>
+            <option value="C++">C++</option>
+            <option value="c#">C#</option>
+            <option value="python">python</option>
+        </select> 
+        <button type="button" onclick="alert('I am in Mangalore')"></button>
+    </form>
+</body>
+</html>
